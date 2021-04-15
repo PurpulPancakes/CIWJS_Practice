@@ -30,7 +30,7 @@
 // student["id"] = idChoose;
 // student["favColor"] = favColorChoose;
 
-// let reateStudent = function(firstname, height, id, favColor){
+// let createStudent = function(firstname, height, id, favColor){
 //     return {
 //         firstname,
 //         height,
@@ -199,3 +199,75 @@
 //     }
 // };
 
+// function Student(fullName, id, gradeLv, currentGrade) {
+//         this.fullname = fullName;
+//         this.id = id;
+//         this.gradeLv = gradeLv;
+//         this.currentGrade = currentGrade;
+//         this.admin = false;
+//         this.graduate = function () {
+//             return this.gradeLv++;
+//         };
+//         this.whiteList = function () {
+//             return this.admin = true;
+//         };
+//         this.setGrade = function (value) {
+//             return this.currentGrade = value;
+//         };
+// }
+
+// let marc = new Student('Marc Tinney', 1, 12, 'smart');
+// console.log(marc.whiteList());
+// console.log(marc);
+
+// class Rectangle {
+//     constructor(width, length){
+//         this.width = width;
+//         this.length = length;
+//     }
+//     get area() {
+//         return this.length * this.width;
+//     }
+// }
+// const rect1 = new Rectangle(10, 5);
+// const rect2 = new Rectangle(6, 12);
+// const rect3 = new Rectangle(15, 20);
+
+// console.log(rect1.area);
+// console.log(rect2.area);
+// console.log(rect3.area);
+
+// class Circle {  
+//     set radius(radius){
+//         this._radius = radius;
+//         this.area = 3.14 * Math.pow(radius, 2);
+//         this.circumference = 2*(3.14)*radius;
+//     }
+// }
+// const circ = new Circle();  
+
+// class Animal {
+//     constructor(speed) {
+//         this.speed = speed;
+//     }
+//     run(){
+//         distance += this.speed;
+//     }
+// };
+
+// class Cat extends Animal {
+//     lives(lives){
+//         this.lives = lives
+//     }
+// };
+
+// Year 4 Digits, Month from 0 (Jan) - 11 (Dec), Date starts at 1, Hours, minutes, seconds, ms (All start at 0)
+
+//getFullYear(), get Month(), getDate(), getHours, minutes, etc..., getDay()(0-6)
+
+//Date.now() Returns the current time on device you are using
+
+//e.currentTarget.style.background = 'red'
+//Using style.property on the current target element will allow you to change the property to whatever you want
+
+//e = event
